@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 
-public abstract class ListaManager<T> extends SuperList{
+public abstract class ListManager<T>  {
+
     ArrayList<T> list = new ArrayList<T>();
 
     public abstract void addElement(T element);
@@ -18,6 +19,7 @@ public abstract class ListaManager<T> extends SuperList{
         return output;
     }
 }
+
 
 
 

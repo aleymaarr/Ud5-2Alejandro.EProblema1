@@ -1,13 +1,23 @@
-public class SuperList {
-    private String nombre;
-    private String descripcion;
-    private int cantidad;
+public class SuperList extends ListManager {
 
-    public SuperList(String nombre, String descripcion, int cantidad) {
-        this.nombre = nombre;
-        this.descripcion = descripcion;
-        this.cantidad = cantidad;
+
+    @Override
+    public void addElement(Object element) {
+
     }
 
+    @Override
+    public Object removeElement(int position) {
+        return null;
+    }
 
+    @Override
+    public void showElements() {
+
+    }
+
+    @Override
+    public void showReversedElements() {
+
+    }
 }
