@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public abstract class ListManager<T>  {
+ abstract class ListManager<T>{
 
     ArrayList<T> list = new ArrayList<T>();
 
